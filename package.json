@@ -23,6 +23,7 @@
     "babel-core": "6",
     "bootstrap": "^4.0.0",
     "jquery": "^3.3.1",
+    "mongodb-stitch": "^3.0.3",
     "popper.js": "^1.12.9",
     "webpack": "^4.3.0",
     "webpack-cli": "^2.0.13"

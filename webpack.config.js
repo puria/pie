@@ -8,6 +8,7 @@ const wp_image_min = require('imagemin-webpack-plugin').default;
 
 const source = path.resolve(__dirname, 'src')
 const build = path.resolve(__dirname, 'dist')
+const markup = path.resolve(source, 'markup')
 
 module.exports = (env, argv) => {
     const is_production = argv.mode === 'production'
@@ -22,7 +23,8 @@ module.exports = (env, argv) => {
     return {
         context: source,
         entry: {
-            app: path.resolve(source, 'index.js'),
+            index: path.resolve(source, 'index.js'),
+            // admin: path.resolve(source, 'admin.js')
             // vendors: [
             //     path.resolve(source, 'vendor', 'aframe-ar.js')
             // ]
@@ -75,7 +77,7 @@ module.exports = (env, argv) => {
                 optipng: { optimizationLevel: 5 },
                 jpegtran: { progressive: true },
             }),
-            new wp_html({ filename: 'index.html', template: path.resolve(source, 'index.html') }),
+            new wp_html({ filename: './index.html', template: path.resolve(markup, 'index.html') }),
             extract_scss,
             new webpack.ProvidePlugin({
                 $: 'jquery',
