@@ -21,10 +21,9 @@ the ways big datas and technologies are challenging the democratic process from 
 ## Timeline
 :date: When | :bomb: What
 --- | ---
-2015 | start of researches
-2015-7 | start of documentation: :it:, :us:, Chile, Romania
-Present | <ul><li>realization of E-Residency, Estonia</li><li>IG Stories test</li><li>pitch for grants and editorial publications</li><li>technical realization of the Augmented reality App</li></ul>
-2018/01-05 | realization of Prato, Futuro Sociale Prossimo, :it:
-2018/02-05 | realization of Mall Crisis, :us:
-2018/04-06 | <ul><li>guerrilla marketing in NYC undergrounds</li><li>launch of the Instagram profile</li><li>Possible exhibition of Prato Futuro Sociale Prossimo in La Triennale di Milano with MiBact (Italian Ministry of Culture, approbation: end of Dec ’17)</li></ul>
+2016 | start of researches
+2016-7 | <ul><li>2015-18 :it: accelerated countercultural music movements</li><li>2017 - Romania: Street protests in Bucharest</li><li>2017 :us: Wall Street's White Collars</li><li>2017 - Chile: Green energy in the Atacama desert</li></ul>
+Present | <ul><li>realization of  e-Estonia: the blockchain nation</li><li>IG Stories test & launch of the Instagram profile</li><li>pitch for grants and editorial partnerships</li><li>post-internet-era.com online integrated with the Augmented Reality instant app</li></ul>
+2018/05-06 | realization of Mall Crisis, :us:
+2018/06-12 | <ul><li>realization of Prato, Futuro Sociale Prossimo, :it:</li><li>guerrilla billposting in NYC undergrounds</li></ul>
 2018/2019 | realization of stories across :us: North America, :euro: Europe, :dollar: Saudi Arabia, and :cn: China
