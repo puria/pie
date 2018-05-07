@@ -1,6 +1,24 @@
-@import 'theme';
-@import '~bootstrap/scss/bootstrap';
+.popup {
+    position:absolute;
+    z-index:2;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background:rgba(0,0,0,0.7);
+    opacity:0;
+    visibility:hidden;
+    transition:.3s ease;
 
-.puria {
-    color: $primary;
+    .show-popup & {
+        opacity:1;
+        visibility: visible;
+    }
+
+    & > iframe {
+        position:absolute;
+        top:50px;
+        left:50%;
+        margin-left:-280px;
+    }
 }

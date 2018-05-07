@@ -16,7 +16,7 @@ module.exports = (env, argv) => {
     const images_path = 'img/'
 
     const extract_scss = new wp_extract_text({
-        filename: '[name].[contenthash].css',
+        filename: '[name].css',
         disable: !is_production,
     });
 
@@ -30,14 +30,14 @@ module.exports = (env, argv) => {
             // ]
         },
         output: {
-            filename: is_production? '[chunkhash].js' : '[name].js',
+            filename: is_production? 'index.[hash].js' : '[name].js',
             path: build,
             pathinfo: !is_production, 
         },
         devtool: is_production? '' : 'eval-cheap-module-source-map',
         devServer: { contentBase: build, hot: !is_production, https: true },
         bail: is_production,
-        resolve: { extensions: ['.js'] },    
+        resolve: { extensions: ['.js'] },
 
         module: {
             rules: [
@@ -68,7 +68,7 @@ module.exports = (env, argv) => {
                 },
             ],
         },
-        
+
         plugins: [
             new wp_copy([{ from: images_path, to: images_path }]),
             new wp_image_min({

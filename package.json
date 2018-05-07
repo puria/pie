@@ -4,7 +4,6 @@
   "description": "Post-Internet Era is a multimedia and documentary long-form narrative analyzing post-internet democracies, documenting the rising of new e-models, the ways big datas and technologies are challenging the democratic process from the inside and their impact on environment.",
   "keywords": [
     "ar",
-    "vr",
     "photography",
     "post-internet",
     "e-democracy",
@@ -17,7 +16,7 @@
   "license": "AGPL-3.0",
   "author": {
     "name": "Puria Nafisi Azizi",
-    "email": "puria@achemenide.com"
+    "email": "puria@dyne.org"
   },
   "dependencies": {
     "babel-core": "6",
@@ -30,7 +29,8 @@
   },
   "scripts": {
     "start": "webpack-dev-server --mode development",
-    "build": "webpack --mode production"
+    "build": "webpack --mode production",
+    "deploy": "yarn build && scp -r dist/* pie:www/ar && scp -r src/markup/glint/* pie:www/"
   },
   "devDependencies": {
     "autoprefixer": "^8.2.0",
