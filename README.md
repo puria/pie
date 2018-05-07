@@ -1,6 +1,6 @@
 <p align="center"><a href="https://post-internet-era.org" target="_blank" rel="noopener noreferrer"><img width="200" src="https://post-internet-era.com/assets/img/pie-logo.png" alt="PIE logo"></a></p>
 
-# POST-INTERNET ERA <https://post-internet-era.org>
+# POST-INTERNET ERA <https://post-internet-era.com>
 Multimedia and documentary long-form narrative analyzing post-internet democracies, documenting the rising of new e-models,
 the ways big datas and technologies are challenging the democratic process from the inside and their impact on environment.
 
