@@ -1,6 +1,6 @@
 <p align="center"><a href="https://post-internet-era.org" target="_blank" rel="noopener noreferrer"><img width="200" src="https://post-internet-era.com/assets/img/pie-logo.png" alt="PIE logo"></a></p>
 
-# POST-INTERNET ERA
+# POST-INTERNET ERA <https://post-internet-era.com>
 Multimedia and documentary long-form narrative analyzing post-internet democracies, documenting the rising of new e-models,
 the ways big datas and technologies are challenging the democratic process from the inside and their impact on environment.
 
@@ -27,3 +27,27 @@ Present | <ul><li>realization of  e-Estonia: the blockchain nation</li><li>IG St
 2018/05-06 | realization of Mall Crisis, :us:
 2018/06-12 | <ul><li>realization of Prato, Futuro Sociale Prossimo, :it:</li><li>guerrilla billposting in NYC undergrounds</li></ul>
 2018/2019 | realization of stories across :us: North America, :euro: Europe, :dollar: Saudi Arabia, and :cn: China
+
+## Built With
+* [AR.js](https://github.com/jeromeetienne/AR.js)
+* [A-Frame](https://aframe.io/)
+* Website theme [Glint](https://colorlib.com/wp/template/glint/) by [Colorlib](https://colorlib.com/)
+
+## Acknowledgements
+
+Copyright (C) 2018 by <a href="https://post-internet-era.com">Post Internet Era</a>, Milan
+
+- Designed, written and maintained by <a href="https://puria.it">Puria Nafisi Azizi</a>
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU Lesser General Public License version 3
+as published by the Free Software Foundation.
+
+This program is distributed in the hope that it will be useful, but
+WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+Lesser General Public License for more details.
+
+You should have received a copy of the GNU Lesser General Public
+License along with this program.  If not, see
+<http://www.gnu.org/licenses/>.
