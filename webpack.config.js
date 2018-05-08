@@ -16,7 +16,7 @@ module.exports = (env, argv) => {
     const images_path = 'img/'
 
     const extract_scss = new wp_extract_text({
-        filename: '[name].css',
+        filename: is_production? '[hash].css' : '[name].css',
         disable: !is_production,
     });
 
@@ -30,7 +30,7 @@ module.exports = (env, argv) => {
             // ]
         },
         output: {
-            filename: is_production? 'index.[hash].js' : '[name].js',
+            filename: is_production? '[hash].js' : '[name].js',
             path: build,
             pathinfo: !is_production, 
         },
