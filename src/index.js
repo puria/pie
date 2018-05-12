@@ -8,13 +8,14 @@ $(() => {
     const isMarkerFound = () => found
     const setMarkerFound = (s) => { found = s }
     const gotoVideo = () => {
-        const marker = document.body.querySelector("a-marker")
-        if (marker.object3D.visible) {
-            if (isMarkerFound()) return
-            setMarkerFound(true)
-            $("#media-popup").find("iframe").attr("src", $('a-marker').data('video'))
-            $("body").addClass("show-popup")
-        }
+        $("a-marker").each((index, marker) => {
+            if (marker.object3D.visible) {
+                if (isMarkerFound()) return
+                setMarkerFound(true)
+                $("#media-popup").find("iframe").attr("src", $(marker).data('video'))
+                $("body").addClass("show-popup")
+            }
+        })
         requestAnimationFrame(gotoVideo)
     }
 

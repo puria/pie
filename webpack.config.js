@@ -48,6 +48,10 @@ module.exports = (env, argv) => {
                     use: 'babel-loader'
                 },
                 {
+                    test: /\.patt$/,
+                    loaders: ['raw-loader']
+                },
+                {
                     test: /\.css$/,
                     loaders: ['raw-loader']
                 },
