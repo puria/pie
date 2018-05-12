@@ -31,7 +31,7 @@
     "start": "webpack-dev-server --mode development",
     "build": "webpack --mode production",
     "prepublish": "yarn build",
-    "publish": "scp -r dist/* pie:www/ar && scp -r src/markup/glint/* pie:www/",
+    "deploy": "scp -r dist/* pie:www/ar && scp -r src/markup/glint/* pie:www/",
     "clean": "rm -r dist/"
   },
   "devDependencies": {
