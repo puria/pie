@@ -20,7 +20,7 @@
   },
   "dependencies": {
     "babel-core": "6",
-    "bootstrap": "^4.0.0",
+    "bootstrap": "^4.3.1",
     "jquery": "^3.4.0",
     "mongodb-stitch": "^3.0.3",
     "popper.js": "^1.12.9",
